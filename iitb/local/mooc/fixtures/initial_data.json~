@@ -1,0 +1,58 @@
+[
+  {
+    "model": "mooc.accreditation",
+    "pk": 1,
+    "fields": {
+      "name": "AICTE"
+    }
+  },
+  {
+    "model": "mooc.accreditation",
+    "pk": 2,
+    "fields": {
+      "name": "ABET"
+    }
+  },
+  {
+    "model": "mooc.accreditation",
+    "pk": 3,
+    "fields": {
+      "name": "CBSE"
+    }
+  },
+  {
+    "model": "mooc.accreditation",
+    "pk": 4,
+    "fields": {
+      "name": "ICSE"
+    }
+  },
+  {
+    "model": "mooc.accreditation",
+    "pk": 5,
+    "fields": {
+      "name": "XYZ"
+    }
+  },
+  {
+    "model": "mooc.accreditation",
+    "pk": 6,
+    "fields": {
+      "name": "ABC"
+    }
+  },
+  {
+    "model": "mooc.accreditation",
+    "pk": 1,
+    "fields": {
+      "name": "AICTE"
+    }
+  },
+  {
+    "model": "mooc.accreditation",
+    "pk": 2,
+    "fields": {
+      "name": "CBSE"
+    }
+  }
+]

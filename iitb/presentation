@@ -1,0 +1,35 @@
+
+
+
+
+As they have presented the original edX platform but coming to Indian enviroment there are some problems with it like :
+Low Completion rate : student don't have time to take edX courses with their university curriculum simulatneously.
+No Interaction with teachers and no practical sessions.
+So, to rule out these issues, IIT Bombay partnered with edX to offer blended Mooc's in India.
+But another practical problem with this is requirement of high capacity internet bandwidth and right now which is quite difficult in India to ensure.
+So, this model proposes a distributed implemetation with a local server in each college, so that student can continue to work on LAN enviroment in case of internet outage.
+
+Lets get an overview of the proposed model , It would contain various modules like identification and training of various roles at the centre such as course creators, who all are interested to offer courses via this platform. After that remote centres or institutes are identified , the roles related to them like remote centre coordinators would be trained. So currently we are in this step of the model. After that Institute Registers on the main server and sets up the local server at their respective locations.
+So, now the students who want to be part of this model , registers themseleves on the main server.
+Now another feature of the proposed system is it replaces the AI grading with staff grading , which encourages the involvement of local faculties. We have other grading mechanisms as well which is supported by edX like self grading and peer grading.
+So, when a student completes the course successfully  he/she recieves IITBombayX certificate.
+
+As the system is in between the development and testing phase but still a glimpse of the main page is :   < Slide loads >
+
+Now lets talk about the Procedure/Flow, how all the above modules are connected:
+
+We divides it as Courses are announced , Institute becomes member , student enrolls and data synchronization.
+ 
+Courses are announces simultaneously and the role of institute is :
+
+Coordinators being already trained --> Register the institute on the main server, gets it approved then setup the local server at their respective locations and enroll for courses. After that their job is to validate and approve the students and host the courses successfuly.
+
+Role of the Students --> Registers on the main server --> Selects their institute and gets approved by the institute --> After that they would be able to login on their local servers and take  respective courses there on Local Network. So this solves a major issue of high capacity internet requirement.
+They get to learn from the best professors and are able to interact with the staff and thier fellow members. Their performance gets evaluated using self grading, staff grading and peer grading and on successful completion of the course they recieve IITBombayX Certificate.
+
+So this models requires data synchronization between main server and local servers which would be an automatic process , such as as soon as student is approved his/her data gets synced to the respective local server and periodically the student grades and performance are synced to the main server from local server.
+
+Moving Forward, thier are some other roles as mentioned in the slide , but its not the part of today presentation.
+
+Thank You
+

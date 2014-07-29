@@ -1,0 +1,31 @@
+
+
+def api_get_complete(var):
+
+    if var = "Person":
+        l = []
+        u = User.objects.all().values_list()
+        for item in u:
+            temp1 = (UserProfile.objects.filter(id=item[0]).values_list())[0]
+            temp2 = (Person.objects.filter(id=item[0]).values_list())[0]
+            item.append(temp1)
+            item.append(temp2)
+            l.insert(item)
+    return l
+
+    else if var = "Institute":
+        l = Institute_Registration.objects.all().values_list();
+      return l
+
+
+
+def api_get_head_by_institute_id(var):
+
+    Institute_Designation.objects.filter(institute_id = var, role_id=1).values_list()[0]
+    
+
+def api_get_by_id(self,var_list,var_id):
+
+	 queryset =self.objects.filter(id=var3).values_list(&var_list1)
+
+     return queryset

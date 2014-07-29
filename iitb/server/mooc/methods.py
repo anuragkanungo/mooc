@@ -1,0 +1,201 @@
+from django.db import models 
+from django.forms import ModelForm
+from django.db.models import Count
+from datetime import datetime
+import uuid
+from django.contrib.auth.models import User
+import json
+from mooc.models import Institute_Registration, State, City, Institute_Accreditation, Accreditation, Institute_Designation, Role, Institute_Status, Student_Institute, Course, Institute_Course, Identity, Institute_Identity
+
+'''
+     Methods:
+     state_choices = It fetches all the states that are currently in the database table.
+     city_choices =  It fetches all the cities that are currently in the database table.
+     city_state_choices = It fetches all the cities that belongs to a specified state and are currently in the database table.
+     accreditation_choices =  It fetches all the accreditation that are currently in the database table.
+     course_choices = It fetches all the courses that are currently in the database table.
+     institute_identity_list = It fetches identity list corresponding to institute from table
+     identity_list = It fetches identity id list  from table
+     identity_name_list = It fetches identity name list  from table
+'''
+
+def number_of_institutes():
+    return len(Institute_Registration.objects.all())
+
+def approved_students():
+    status = Institute_Status.objects.filter(name="Approved")[0].id
+    return Student_Institute.objects.filter(status_id=status).values('user').distinct().count()
+
+def number_of_courses_enrolled():
+    return Course.objects.all().count()
+    
+def institutes_by_status(self):
+         status = Institute_Status.objects.filter(name=self)[0].id
+         data = Institute_Registration.objects.filter(status_id=status)
+         return data
+
+
+def number_of_institutes_by_status(self):
+         status = Institute_Status.objects.filter(name=self)[0].id
+         number = len(Institute_Registration.objects.filter(status_id=status))
+         return number
+
+def course_choices(self):
+	 queryset =self.objects.all()
+	
+	 outer_list = []
+         for name in queryset:
+   	         inner_list=[]
+   	         inner_list.append( int(name.id))
+   		 inner_list.append( str(name))
+   		 inner_list= tuple(inner_list)
+    		 outer_list.append(inner_list)
+
+	 outer_list= tuple(outer_list)
+	 return outer_list
+
+def institute_course_choices(self):
+	 queryset =self.objects.all()
+	 outer_list = []
+         for name in queryset:
+   	         inner_list=[]
+   	         inner_list.append( int(name.institute_id))
+   		 inner_list.append( int(name.course_id))
+   		 inner_list= tuple(inner_list)
+    		 outer_list.append(inner_list)
+
+	 outer_list= tuple(outer_list)
+	 return outer_list
+
+def institute_choices(self):
+	 queryset =self.objects.all()
+	 outer_list = []
+         for name in queryset:
+   	         inner_list=[]
+   	         inner_list.append( int(name.id))
+   		 inner_list.append( str(name.name))
+   		 inner_list= tuple(inner_list)
+    		 outer_list.append(inner_list)
+
+	 outer_list= tuple(outer_list)
+	 return outer_list
+
+def state_choices(self):
+	 queryset =self.objects.all()
+	
+	 outer_list = []
+         for name in queryset:
+   	         inner_list=[]
+   	         inner_list.append( int(name.id))
+   		 inner_list.append( str(name))
+   		 inner_list= tuple(inner_list)
+    		 outer_list.append(inner_list)
+
+	 outer_list= tuple(outer_list)
+	 return outer_list
+     
+def city_state_choices(self):
+	 queryset =self.objects.all()
+	 outer_list = []
+         for name in queryset:
+   	         inner_list=[]
+   	         inner_list.append( int(name.id))
+   		 inner_list.append( int(name.state_id))
+   		 inner_list= tuple(inner_list)
+    		 outer_list.append(inner_list)
+
+	 outer_list= tuple(outer_list)
+	 return outer_list
+
+
+def city_choices(self):
+	 queryset =self.objects.all()
+	 outer_list = []
+         for name in queryset:
+   	         inner_list=[]
+   	         inner_list.append( int(name.id))
+   		 inner_list.append( str(name.name))
+   		 inner_list= tuple(inner_list)
+    		 outer_list.append(inner_list)
+
+	 outer_list= tuple(outer_list)
+	 return outer_list
+
+
+       
+def accreditation_choices(self):
+	 queryset =self.objects.all()
+	
+	 outer_list = []
+         for name in queryset:
+   	         inner_list=[]
+   	         inner_list.append( int(name.id))
+   		 inner_list.append( str(name))
+   		 inner_list= tuple(inner_list)
+    		 outer_list.append(inner_list)
+
+	 outer_list= tuple(outer_list)
+	 return outer_list
+
+def institute_identity_list(self):
+         queryset =self.objects.all()
+         outer_list = []
+         for name in queryset:
+                 inner_list=[]
+                 inner_list.append( int(name.identity_id))
+                 inner_list.append( int(name.institute_id))
+                 inner_list= tuple(inner_list)
+                 outer_list.append(inner_list)
+
+         outer_list= tuple(outer_list)
+         return outer_list
+
+
+def identity_list(self):
+         queryset =self.objects.all()
+         outer_list = []
+         for name in queryset:
+                 inner_list=[]
+                 inner_list.append(int(name.id))
+                 inner_list.append(str(name))
+                 inner_list= tuple(inner_list)
+                 outer_list.append(inner_list)
+
+         outer_list= tuple(outer_list)
+         return outer_list
+
+def identity_name_list(self):
+         queryset =self.objects.all()
+
+         outer_list = []
+         for name in queryset:
+                 inner_list=[]
+                 inner_list.append( int(name.id))
+                 inner_list.append( str(name))
+                 inner_list= tuple(inner_list)
+                 outer_list.append(inner_list)
+
+         outer_list= tuple(outer_list)
+         return outer_list
+
+
+NUMBER_OF_INSTITUTES = number_of_institutes()
+APPROVED_STUDENTS = approved_students()
+COURSES_ENROLLED = number_of_courses_enrolled()
+PENDING_INSTITUTES_COUNT = number_of_institutes_by_status("Pending")
+APPROVED_INSTITUTES_COUNT = number_of_institutes_by_status("Approved")
+REJECTED_INSTITUTES_COUNT = number_of_institutes_by_status("Rejected")
+
+
+PENDING_INSTITUTES = institutes_by_status("Pending")
+APPROVED_INSTITUTES = institutes_by_status("Approved")
+REJECTED_INSTITUTES = institutes_by_status("Rejected")
+
+COURSE_CHOICES=course_choices(Course)
+INSTITUTE_CHOICES=institute_choices(Institute_Registration)
+INSTITUTE_COURSE=institute_course_choices(Institute_Course)
+STATE_CHOICES=state_choices(State)	
+CITY_CHOICES= city_choices(City)
+CITY_STATE = city_state_choices(City)
+ACCREDITATION_CHOICES=accreditation_choices(Accreditation)
+IDENTITY_NAME_LIST=identity_name_list(Identity)

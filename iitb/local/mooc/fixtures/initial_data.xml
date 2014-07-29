@@ -1,0 +1,2738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+<object pk="1" model="mooc.state">
+    <field type="CharField" name="name">Andaman and Nicobar islands</field>
+</object>
+<object pk="2" model="mooc.state">
+    <field type="CharField" name="name">Andhra Pradesh</field>
+</object>
+<object pk="3" model="mooc.state">
+    <field type="CharField" name="name">Arunachal Pradesh</field>
+</object>
+<object pk="4" model="mooc.state">
+    <field type="CharField" name="name">Assam</field>
+</object>
+<object pk="5" model="mooc.state">
+    <field type="CharField" name="name">Bihar</field>
+</object>
+<object pk="6" model="mooc.state">
+    <field type="CharField" name="name">Chandigarh</field>
+</object>
+<object pk="7" model="mooc.state">
+    <field type="CharField" name="name">Chattisgarh</field>
+</object>
+<object pk="8" model="mooc.state">
+    <field type="CharField" name="name">Dadra and Nagar Haveli</field>
+</object>
+<object pk="9" model="mooc.state">
+    <field type="CharField" name="name">Daman and Diu</field>
+</object>
+<object pk="10" model="mooc.state">
+    <field type="CharField" name="name">Delhi</field>
+</object>
+<object pk="11" model="mooc.state">
+    <field type="CharField" name="name">Goa</field>
+</object>
+<object pk="12" model="mooc.state">
+    <field type="CharField" name="name">Gujarat</field>
+</object>
+<object pk="13" model="mooc.state">
+    <field type="CharField" name="name">Haryana</field>
+</object>
+<object pk="14" model="mooc.state">
+    <field type="CharField" name="name">Himachal Pradesh</field>
+</object>
+<object pk="15" model="mooc.state">
+    <field type="CharField" name="name">Jammu and Kashmir</field>
+</object>
+<object pk="16" model="mooc.state">
+    <field type="CharField" name="name">Jharkhand</field>
+</object>
+<object pk="17" model="mooc.state">
+    <field type="CharField" name="name">Karnataka</field>
+</object>
+<object pk="18" model="mooc.state">
+    <field type="CharField" name="name">Kerala</field>
+</object>
+<object pk="19" model="mooc.state">
+    <field type="CharField" name="name">Lakshadweep</field>
+</object>
+<object pk="20" model="mooc.state">
+    <field type="CharField" name="name">Madhya Pradesh</field>
+</object>
+<object pk="21" model="mooc.state">
+    <field type="CharField" name="name">Maharashtra</field>
+</object>
+<object pk="22" model="mooc.state">
+    <field type="CharField" name="name">Manipur</field>
+</object>
+<object pk="23" model="mooc.state">
+    <field type="CharField" name="name">Meghalaya</field>
+</object>
+<object pk="24" model="mooc.state">
+    <field type="CharField" name="name">Mizoram</field>
+</object>
+<object pk="25" model="mooc.state">
+    <field type="CharField" name="name">Nagaland</field>
+</object>
+<object pk="26" model="mooc.state">
+    <field type="CharField" name="name">Orissa</field>
+</object>
+<object pk="27" model="mooc.state">
+    <field type="CharField" name="name">Pondicherry</field>
+</object>
+<object pk="28" model="mooc.state">
+    <field type="CharField" name="name">Punjab</field>
+</object>
+<object pk="29" model="mooc.state">
+    <field type="CharField" name="name">Rajasthan</field>
+</object>
+<object pk="30" model="mooc.state">
+    <field type="CharField" name="name">Sikkim</field>
+</object>
+<object pk="31" model="mooc.state">
+    <field type="CharField" name="name">Tamil Nadu</field>
+</object>
+<object pk="32" model="mooc.state">
+    <field type="CharField" name="name">Tripura</field>
+</object>
+<object pk="33" model="mooc.state">
+    <field type="CharField" name="name">Uttar Pradesh</field>
+</object>
+<object pk="34" model="mooc.state">
+    <field type="CharField" name="name">Uttarakhand</field>
+</object>
+<object pk="35" model="mooc.state">
+    <field type="CharField" name="name">West Bengal</field>
+</object>
+
+
+<object pk="1" model="mooc.accreditation">
+    <field type="CharField" name="name">AICTE</field>
+</object>
+<object pk="2" model="mooc.accreditation">
+    <field type="CharField" name="name">ABET</field>
+</object>
+<object pk="3" model="mooc.accreditation">
+    <field type="CharField" name="name">CBSE</field>
+</object>
+<object pk="4" model="mooc.accreditation">
+    <field type="CharField" name="name">ICSE</field>
+</object>
+
+
+
+<object pk="1" model="mooc.city">
+    <field type="CharField" name="name">North and Middle Andaman</field>
+    <field type="IntegerField" name="state">1</field>
+</object>
+<object pk="2" model="mooc.city">
+    <field type="CharField" name="name">South Andaman</field>
+    <field type="IntegerField" name="state">1</field>
+</object>
+<object pk="3" model="mooc.city">
+    <field type="CharField" name="name">Nicobar</field>
+    <field type="IntegerField" name="state">1</field>
+</object>
+<object pk="4" model="mooc.city">
+    <field type="CharField" name="name">Adilabad</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="5" model="mooc.city">
+    <field type="CharField" name="name">Anantapur</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="6" model="mooc.city">
+    <field type="CharField" name="name">Chittoor</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="7" model="mooc.city">
+    <field type="CharField" name="name">East Godavari</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="8" model="mooc.city">
+    <field type="CharField" name="name">Guntur</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="9" model="mooc.city">
+    <field type="CharField" name="name">Hyderabad</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="10" model="mooc.city">
+    <field type="CharField" name="name">Karim Nagar</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="11" model="mooc.city">
+    <field type="CharField" name="name">Khammam</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="12" model="mooc.city">
+    <field type="CharField" name="name">Krishna</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="13" model="mooc.city">
+    <field type="CharField" name="name">Kurnool</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="14" model="mooc.city">
+    <field type="CharField" name="name">Mahabubnagar</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="15" model="mooc.city">
+    <field type="CharField" name="name">Medak</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="16" model="mooc.city">
+    <field type="CharField" name="name">Nalgonda</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="17" model="mooc.city">
+    <field type="CharField" name="name">Nizamabad</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="18" model="mooc.city">
+    <field type="CharField" name="name">Prakasam</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="19" model="mooc.city">
+    <field type="CharField" name="name">Rangareddi</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="20" model="mooc.city">
+    <field type="CharField" name="name">Srikakulam</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="21" model="mooc.city">
+    <field type="CharField" name="name">Nellore</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="22" model="mooc.city">
+    <field type="CharField" name="name">Visakhapatnam</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="23" model="mooc.city">
+    <field type="CharField" name="name">Vizianagaram</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="24" model="mooc.city">
+    <field type="CharField" name="name">Warangal</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="25" model="mooc.city">
+    <field type="CharField" name="name">West Godavari</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="26" model="mooc.city">
+    <field type="CharField" name="name">Cuddapah</field>
+    <field type="IntegerField" name="state">2</field>
+</object>
+<object pk="27" model="mooc.city">
+    <field type="CharField" name="name">Anjaw</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="28" model="mooc.city">
+    <field type="CharField" name="name">Changlang</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="29" model="mooc.city">
+    <field type="CharField" name="name">East Siang</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="30" model="mooc.city">
+    <field type="CharField" name="name">East Kameng</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="31" model="mooc.city">
+    <field type="CharField" name="name">Kurung Kumey</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="32" model="mooc.city">
+    <field type="CharField" name="name">Lohit</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="33" model="mooc.city">
+    <field type="CharField" name="name">Lower Dibang Valley</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="34" model="mooc.city">
+    <field type="CharField" name="name">Lower Subansiri</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="35" model="mooc.city">
+    <field type="CharField" name="name">Papum Pare</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="36" model="mooc.city">
+    <field type="CharField" name="name">Tawang</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="37" model="mooc.city">
+    <field type="CharField" name="name">Tirap</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="38" model="mooc.city">
+    <field type="CharField" name="name">Dibang Valley</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="39" model="mooc.city">
+    <field type="CharField" name="name">Upper Siang</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="40" model="mooc.city">
+    <field type="CharField" name="name">Upper Subansiri</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="41" model="mooc.city">
+    <field type="CharField" name="name">West Kameng</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="42" model="mooc.city">
+    <field type="CharField" name="name">West Siang</field>
+    <field type="IntegerField" name="state">3</field>
+</object>
+<object pk="43" model="mooc.city">
+    <field type="CharField" name="name">Baksa</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="44" model="mooc.city">
+    <field type="CharField" name="name">Barpeta</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="45" model="mooc.city">
+    <field type="CharField" name="name">Bongaigaon</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="46" model="mooc.city">
+    <field type="CharField" name="name">Cachar</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="47" model="mooc.city">
+    <field type="CharField" name="name">Chirang</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="48" model="mooc.city">
+    <field type="CharField" name="name">Darrang</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="49" model="mooc.city">
+    <field type="CharField" name="name">Dhemaji</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="50" model="mooc.city">
+    <field type="CharField" name="name">North Cachar hills</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="51" model="mooc.city">
+    <field type="CharField" name="name">Dhubri</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="52" model="mooc.city">
+    <field type="CharField" name="name">Dibrugarh</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="53" model="mooc.city">
+    <field type="CharField" name="name">Goalpara</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="54" model="mooc.city">
+    <field type="CharField" name="name">Golaghat</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="55" model="mooc.city">
+    <field type="CharField" name="name">Hailakandi</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="56" model="mooc.city">
+    <field type="CharField" name="name">Jorhat</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="57" model="mooc.city">
+    <field type="CharField" name="name">Kamrup</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="58" model="mooc.city">
+    <field type="CharField" name="name">Kamrup Metropolitan</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="59" model="mooc.city">
+    <field type="CharField" name="name">Karbi Anglong</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="60" model="mooc.city">
+    <field type="CharField" name="name">Karimganj</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="61" model="mooc.city">
+    <field type="CharField" name="name">Kokrajhar</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="62" model="mooc.city">
+    <field type="CharField" name="name">Lakhimpur</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="63" model="mooc.city">
+    <field type="CharField" name="name">Marigaon</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="64" model="mooc.city">
+    <field type="CharField" name="name">Nagaon</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="65" model="mooc.city">
+    <field type="CharField" name="name">Nalbari</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="66" model="mooc.city">
+    <field type="CharField" name="name">Sivasagar (sibsagar)</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="67" model="mooc.city">
+    <field type="CharField" name="name">Sonitpur</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="68" model="mooc.city">
+    <field type="CharField" name="name">Tinsukia</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="69" model="mooc.city">
+    <field type="CharField" name="name">Udalguri</field>
+    <field type="IntegerField" name="state">4</field>
+</object>
+<object pk="70" model="mooc.city">
+    <field type="CharField" name="name">Araria</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="71" model="mooc.city">
+    <field type="CharField" name="name">Arwal</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="72" model="mooc.city">
+    <field type="CharField" name="name">Aurangabad</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="73" model="mooc.city">
+    <field type="CharField" name="name">Banka</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="74" model="mooc.city">
+    <field type="CharField" name="name">Begusarai</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="75" model="mooc.city">
+    <field type="CharField" name="name">Bhagalpur</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="76" model="mooc.city">
+    <field type="CharField" name="name">Bhojpur</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="77" model="mooc.city">
+    <field type="CharField" name="name">Buxar</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="78" model="mooc.city">
+    <field type="CharField" name="name">Darbhanga</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="79" model="mooc.city">
+    <field type="CharField" name="name">East Champaran</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="80" model="mooc.city">
+    <field type="CharField" name="name">Gaya</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="81" model="mooc.city">
+    <field type="CharField" name="name">Gopalganj</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="82" model="mooc.city">
+    <field type="CharField" name="name">Jamui</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="83" model="mooc.city">
+    <field type="CharField" name="name">Jehanabad</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="84" model="mooc.city">
+    <field type="CharField" name="name">Kaimur (bhabua)</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="85" model="mooc.city">
+    <field type="CharField" name="name">Katihar</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="86" model="mooc.city">
+    <field type="CharField" name="name">Khagaria</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="87" model="mooc.city">
+    <field type="CharField" name="name">Kishanganj</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="88" model="mooc.city">
+    <field type="CharField" name="name">Lakhisarai</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="89" model="mooc.city">
+    <field type="CharField" name="name">Madhepura</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="90" model="mooc.city">
+    <field type="CharField" name="name">Madhubani</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="91" model="mooc.city">
+    <field type="CharField" name="name">Munger</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="92" model="mooc.city">
+    <field type="CharField" name="name">Muzaffarpur</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="93" model="mooc.city">
+    <field type="CharField" name="name">Nalanda</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="94" model="mooc.city">
+    <field type="CharField" name="name">Nawada</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="95" model="mooc.city">
+    <field type="CharField" name="name">Patna</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="96" model="mooc.city">
+    <field type="CharField" name="name">Purnia</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="97" model="mooc.city">
+    <field type="CharField" name="name">Rohtas</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="98" model="mooc.city">
+    <field type="CharField" name="name">Saharsa</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="99" model="mooc.city">
+    <field type="CharField" name="name">Samastipur</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="100" model="mooc.city">
+    <field type="CharField" name="name">Saran</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="101" model="mooc.city">
+    <field type="CharField" name="name">Sheikhpura</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="102" model="mooc.city">
+    <field type="CharField" name="name">Sheohar</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="103" model="mooc.city">
+    <field type="CharField" name="name">Sitamarhi</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="104" model="mooc.city">
+    <field type="CharField" name="name">Siwan</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="105" model="mooc.city">
+    <field type="CharField" name="name">Supaul</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="106" model="mooc.city">
+    <field type="CharField" name="name">Vaishali</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="107" model="mooc.city">
+    <field type="CharField" name="name">West Champaran</field>
+    <field type="IntegerField" name="state">5</field>
+</object>
+<object pk="108" model="mooc.city">
+    <field type="CharField" name="name">Chandigarh</field>
+    <field type="IntegerField" name="state">6</field>
+</object>
+<object pk="109" model="mooc.city">
+    <field type="CharField" name="name">Bastar</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="110" model="mooc.city">
+    <field type="CharField" name="name">Bijapur</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="111" model="mooc.city">
+    <field type="CharField" name="name">Bilaspur</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="112" model="mooc.city">
+    <field type="CharField" name="name">Dantewada</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="113" model="mooc.city">
+    <field type="CharField" name="name">Dhamtari</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="114" model="mooc.city">
+    <field type="CharField" name="name">Durg</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="115" model="mooc.city">
+    <field type="CharField" name="name">Jashpur</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="116" model="mooc.city">
+    <field type="CharField" name="name">Janjgir-Champa</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="117" model="mooc.city">
+    <field type="CharField" name="name">Korba</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="118" model="mooc.city">
+    <field type="CharField" name="name">Koriya</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="119" model="mooc.city">
+    <field type="CharField" name="name">Kanker</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="120" model="mooc.city">
+    <field type="CharField" name="name">Kawardha</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="121" model="mooc.city">
+    <field type="CharField" name="name">Mahasamund</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="122" model="mooc.city">
+    <field type="CharField" name="name">Narayanpur</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="123" model="mooc.city">
+    <field type="CharField" name="name">Raigarh</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="124" model="mooc.city">
+    <field type="CharField" name="name">Rajnandgaon</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="125" model="mooc.city">
+    <field type="CharField" name="name">Raipur</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="126" model="mooc.city">
+    <field type="CharField" name="name">Surguja</field>
+    <field type="IntegerField" name="state">7</field>
+</object>
+<object pk="127" model="mooc.city">
+    <field type="CharField" name="name">Dadra and Nagar Haveli</field>
+    <field type="IntegerField" name="state">8</field>
+</object>
+<object pk="128" model="mooc.city">
+    <field type="CharField" name="name">Daman</field>
+    <field type="IntegerField" name="state">9</field>
+</object>
+<object pk="129" model="mooc.city">
+    <field type="CharField" name="name">Diu</field>
+    <field type="IntegerField" name="state">9</field>
+</object>
+<object pk="130" model="mooc.city">
+    <field type="CharField" name="name">Central Delhi</field>
+    <field type="IntegerField" name="state">10</field>
+</object>
+<object pk="131" model="mooc.city">
+    <field type="CharField" name="name">East Delhi</field>
+    <field type="IntegerField" name="state">10</field>
+</object>
+<object pk="132" model="mooc.city">
+    <field type="CharField" name="name">New Delhi</field>
+    <field type="IntegerField" name="state">10</field>
+</object>
+<object pk="133" model="mooc.city">
+    <field type="CharField" name="name">North Delhi</field>
+    <field type="IntegerField" name="state">10</field>
+</object>
+<object pk="134" model="mooc.city">
+    <field type="CharField" name="name">North East Delhi</field>
+    <field type="IntegerField" name="state">10</field>
+</object>
+<object pk="135" model="mooc.city">
+    <field type="CharField" name="name">North West Delhi</field>
+    <field type="IntegerField" name="state">10</field>
+</object>
+<object pk="136" model="mooc.city">
+    <field type="CharField" name="name">South Delhi</field>
+    <field type="IntegerField" name="state">10</field>
+</object>
+<object pk="137" model="mooc.city">
+    <field type="CharField" name="name">South West Delhi</field>
+    <field type="IntegerField" name="state">10</field>
+</object>
+<object pk="138" model="mooc.city">
+    <field type="CharField" name="name">West Delhi</field>
+    <field type="IntegerField" name="state">10</field>
+</object>
+<object pk="139" model="mooc.city">
+    <field type="CharField" name="name">North Goa</field>
+    <field type="IntegerField" name="state">11</field>
+</object>
+<object pk="140" model="mooc.city">
+    <field type="CharField" name="name">South Goa</field>
+    <field type="IntegerField" name="state">11</field>
+</object>
+<object pk="141" model="mooc.city">
+    <field type="CharField" name="name">Ahmedabad</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="142" model="mooc.city">
+    <field type="CharField" name="name">Amreli</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="143" model="mooc.city">
+    <field type="CharField" name="name">Anand</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="144" model="mooc.city">
+    <field type="CharField" name="name">Aravalli</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="145" model="mooc.city">
+    <field type="CharField" name="name">Banaskantha</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="146" model="mooc.city">
+    <field type="CharField" name="name">Bharuch</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="147" model="mooc.city">
+    <field type="CharField" name="name">Bhavnagar</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="148" model="mooc.city">
+    <field type="CharField" name="name">Dahod</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="149" model="mooc.city">
+    <field type="CharField" name="name">The Dangs</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="150" model="mooc.city">
+    <field type="CharField" name="name">Gandhi Nagar</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="151" model="mooc.city">
+    <field type="CharField" name="name">Jamnagar</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="152" model="mooc.city">
+    <field type="CharField" name="name">Junagadh</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="153" model="mooc.city">
+    <field type="CharField" name="name">Kachchh</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="154" model="mooc.city">
+    <field type="CharField" name="name">Kheda</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="155" model="mooc.city">
+    <field type="CharField" name="name">Mahesana</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="156" model="mooc.city">
+    <field type="CharField" name="name">Narmada</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="157" model="mooc.city">
+    <field type="CharField" name="name">Navsari</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="158" model="mooc.city">
+    <field type="CharField" name="name">Patan</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="159" model="mooc.city">
+    <field type="CharField" name="name">Panch Mahals</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="160" model="mooc.city">
+    <field type="CharField" name="name">Porbandar</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="161" model="mooc.city">
+    <field type="CharField" name="name">Rajkot</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="162" model="mooc.city">
+    <field type="CharField" name="name">Sabarkantha</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="163" model="mooc.city">
+    <field type="CharField" name="name">Surendra Nagar</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="164" model="mooc.city">
+    <field type="CharField" name="name">Surat</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="165" model="mooc.city">
+    <field type="CharField" name="name">Tapi</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="166" model="mooc.city">
+    <field type="CharField" name="name">Vadodara</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="167" model="mooc.city">
+    <field type="CharField" name="name">Valsad</field>
+    <field type="IntegerField" name="state">12</field>
+</object>
+<object pk="168" model="mooc.city">
+    <field type="CharField" name="name">Ambala</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="169" model="mooc.city">
+    <field type="CharField" name="name">Bhiwani</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="170" model="mooc.city">
+    <field type="CharField" name="name">Faridabad</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="171" model="mooc.city">
+    <field type="CharField" name="name">Fatehabad</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="172" model="mooc.city">
+    <field type="CharField" name="name">Gurgaon</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="173" model="mooc.city">
+    <field type="CharField" name="name">Hisar</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="174" model="mooc.city">
+    <field type="CharField" name="name">Jhajjar</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="175" model="mooc.city">
+    <field type="CharField" name="name">Jind</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="176" model="mooc.city">
+    <field type="CharField" name="name">Karnal</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="177" model="mooc.city">
+    <field type="CharField" name="name">Kaithal</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="178" model="mooc.city">
+    <field type="CharField" name="name">Kurukshetra</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="179" model="mooc.city">
+    <field type="CharField" name="name">Mahendragarh</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="180" model="mooc.city">
+    <field type="CharField" name="name">Mewat</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="181" model="mooc.city">
+    <field type="CharField" name="name">Palwal</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="182" model="mooc.city">
+    <field type="CharField" name="name">Panchkula</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="183" model="mooc.city">
+    <field type="CharField" name="name">Panipat</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="184" model="mooc.city">
+    <field type="CharField" name="name">Rewari</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="185" model="mooc.city">
+    <field type="CharField" name="name">Rohtak</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="186" model="mooc.city">
+    <field type="CharField" name="name">Sirsa</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="187" model="mooc.city">
+    <field type="CharField" name="name">Sonipat</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="188" model="mooc.city">
+    <field type="CharField" name="name">Yamuna Nagar</field>
+    <field type="IntegerField" name="state">13</field>
+</object>
+<object pk="190" model="mooc.city">
+    <field type="CharField" name="name">Chamba</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="191" model="mooc.city">
+    <field type="CharField" name="name">Hamirpur</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="192" model="mooc.city">
+    <field type="CharField" name="name">Kangra</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="193" model="mooc.city">
+    <field type="CharField" name="name">Kinnaur</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="194" model="mooc.city">
+    <field type="CharField" name="name">Kullu</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="195" model="mooc.city">
+    <field type="CharField" name="name">Lahul and Spiti</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="196" model="mooc.city">
+    <field type="CharField" name="name">Mandi</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="197" model="mooc.city">
+    <field type="CharField" name="name">Shimla</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="198" model="mooc.city">
+    <field type="CharField" name="name">Sirmaur</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="199" model="mooc.city">
+    <field type="CharField" name="name">Solan</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="200" model="mooc.city">
+    <field type="CharField" name="name">Una</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="201" model="mooc.city">
+    <field type="CharField" name="name">Ananthnag</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="202" model="mooc.city">
+    <field type="CharField" name="name">Budgam</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="203" model="mooc.city">
+    <field type="CharField" name="name">Bandipora</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="204" model="mooc.city">
+    <field type="CharField" name="name">Baramulla</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="205" model="mooc.city">
+    <field type="CharField" name="name">Doda</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="206" model="mooc.city">
+    <field type="CharField" name="name">Ganderbal</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="207" model="mooc.city">
+    <field type="CharField" name="name">Jammu</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="208" model="mooc.city">
+    <field type="CharField" name="name">Kargil</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="209" model="mooc.city">
+    <field type="CharField" name="name">Kathua</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="210" model="mooc.city">
+    <field type="CharField" name="name">Kishtwar</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="211" model="mooc.city">
+    <field type="CharField" name="name">Kupwara</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="212" model="mooc.city">
+    <field type="CharField" name="name">Kulgam</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="213" model="mooc.city">
+    <field type="CharField" name="name">Leh</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="214" model="mooc.city">
+    <field type="CharField" name="name">Poonch</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="215" model="mooc.city">
+    <field type="CharField" name="name">Pulwama</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="216" model="mooc.city">
+    <field type="CharField" name="name">Rajauri</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="217" model="mooc.city">
+    <field type="CharField" name="name">Ramban</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="218" model="mooc.city">
+    <field type="CharField" name="name">Reasi</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="219" model="mooc.city">
+    <field type="CharField" name="name">Samba</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="220" model="mooc.city">
+    <field type="CharField" name="name">Shopian</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="221" model="mooc.city">
+    <field type="CharField" name="name">Srinagar</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="222" model="mooc.city">
+    <field type="CharField" name="name">Udhampur</field>
+    <field type="IntegerField" name="state">15</field>
+</object>
+<object pk="223" model="mooc.city">
+    <field type="CharField" name="name">Bokaro</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="224" model="mooc.city">
+    <field type="CharField" name="name">Chatra</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="225" model="mooc.city">
+    <field type="CharField" name="name">Deoghar</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="226" model="mooc.city">
+    <field type="CharField" name="name">Dhanbad</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="227" model="mooc.city">
+    <field type="CharField" name="name">Dumka</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="228" model="mooc.city">
+    <field type="CharField" name="name">East Singhbhum</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="229" model="mooc.city">
+    <field type="CharField" name="name">Garhwa</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="230" model="mooc.city">
+    <field type="CharField" name="name">Giridh</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="231" model="mooc.city">
+    <field type="CharField" name="name">Godda</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="232" model="mooc.city">
+    <field type="CharField" name="name">Gumla</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="233" model="mooc.city">
+    <field type="CharField" name="name">Hazaribag</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="234" model="mooc.city">
+    <field type="CharField" name="name">Jamtara</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="235" model="mooc.city">
+    <field type="CharField" name="name">Khunti</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="236" model="mooc.city">
+    <field type="CharField" name="name">Koderma</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="237" model="mooc.city">
+    <field type="CharField" name="name">Latehar</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="238" model="mooc.city">
+    <field type="CharField" name="name">Lohardaga</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="239" model="mooc.city">
+    <field type="CharField" name="name">Pakur</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="240" model="mooc.city">
+    <field type="CharField" name="name">Palamau</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="241" model="mooc.city">
+    <field type="CharField" name="name">Ramgarh</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="242" model="mooc.city">
+    <field type="CharField" name="name">Ranchi</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="243" model="mooc.city">
+    <field type="CharField" name="name">Sahibganj</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="244" model="mooc.city">
+    <field type="CharField" name="name">Seraikela-kharsawan</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="245" model="mooc.city">
+    <field type="CharField" name="name">Simdega</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="246" model="mooc.city">
+    <field type="CharField" name="name">West Singhbhum</field>
+    <field type="IntegerField" name="state">16</field>
+</object>
+<object pk="247" model="mooc.city">
+    <field type="CharField" name="name">Bagalkot</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="248" model="mooc.city">
+    <field type="CharField" name="name">Bangalore Rural</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="249" model="mooc.city">
+    <field type="CharField" name="name">Bangalore</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="250" model="mooc.city">
+    <field type="CharField" name="name">Belgaum</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="251" model="mooc.city">
+    <field type="CharField" name="name">Bellary</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="252" model="mooc.city">
+    <field type="CharField" name="name">Bidar</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="254" model="mooc.city">
+    <field type="CharField" name="name">Chamrajnagar</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="255" model="mooc.city">
+    <field type="CharField" name="name">Chickmagalur</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="256" model="mooc.city">
+    <field type="CharField" name="name">Chikkaballapur</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="257" model="mooc.city">
+    <field type="CharField" name="name">Chitradurga</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="258" model="mooc.city">
+    <field type="CharField" name="name">Davangare</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="259" model="mooc.city">
+    <field type="CharField" name="name">Dharward</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="260" model="mooc.city">
+    <field type="CharField" name="name">Dakshina Kannada</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="261" model="mooc.city">
+    <field type="CharField" name="name">Gadag</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="262" model="mooc.city">
+    <field type="CharField" name="name">Gulbarga</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="263" model="mooc.city">
+    <field type="CharField" name="name">Hassan</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="264" model="mooc.city">
+    <field type="CharField" name="name">Haveri</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="265" model="mooc.city">
+    <field type="CharField" name="name">Kodagu</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="266" model="mooc.city">
+    <field type="CharField" name="name">Kolar</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="267" model="mooc.city">
+    <field type="CharField" name="name">Koppal</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="268" model="mooc.city">
+    <field type="CharField" name="name">Mandya</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="269" model="mooc.city">
+    <field type="CharField" name="name">Mysore</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="270" model="mooc.city">
+    <field type="CharField" name="name">Raichur</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="271" model="mooc.city">
+    <field type="CharField" name="name">Shimoga</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="272" model="mooc.city">
+    <field type="CharField" name="name">Tumkur</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="273" model="mooc.city">
+    <field type="CharField" name="name">Udupi</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="274" model="mooc.city">
+    <field type="CharField" name="name">Uttara Kannada</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="275" model="mooc.city">
+    <field type="CharField" name="name">Ramanagara</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="276" model="mooc.city">
+    <field type="CharField" name="name">Yadgir</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="277" model="mooc.city">
+    <field type="CharField" name="name">Alappuzha</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="278" model="mooc.city">
+    <field type="CharField" name="name">Ernakulam</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="279" model="mooc.city">
+    <field type="CharField" name="name">Idukki</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="280" model="mooc.city">
+    <field type="CharField" name="name">Kannur</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="281" model="mooc.city">
+    <field type="CharField" name="name">Kasargod</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="282" model="mooc.city">
+    <field type="CharField" name="name">Kollam</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="283" model="mooc.city">
+    <field type="CharField" name="name">Kottayam</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="284" model="mooc.city">
+    <field type="CharField" name="name">Kozhikode</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="285" model="mooc.city">
+    <field type="CharField" name="name">Malappuram</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="286" model="mooc.city">
+    <field type="CharField" name="name">Palakkad</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="287" model="mooc.city">
+    <field type="CharField" name="name">Pathanamthitta</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="288" model="mooc.city">
+    <field type="CharField" name="name">Thrissur</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="289" model="mooc.city">
+    <field type="CharField" name="name">Thiruvananthapuram</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="290" model="mooc.city">
+    <field type="CharField" name="name">Wayanad</field>
+    <field type="IntegerField" name="state">18</field>
+</object>
+<object pk="291" model="mooc.city">
+    <field type="CharField" name="name">Lakshadweep</field>
+    <field type="IntegerField" name="state">19</field>
+</object>
+<object pk="292" model="mooc.city">
+    <field type="CharField" name="name">Agar</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="293" model="mooc.city">
+    <field type="CharField" name="name">Alirajpur</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="294" model="mooc.city">
+    <field type="CharField" name="name">Anuppur</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="295" model="mooc.city">
+    <field type="CharField" name="name">Ashoknagar</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="296" model="mooc.city">
+    <field type="CharField" name="name">Balaghat</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="297" model="mooc.city">
+    <field type="CharField" name="name">Barwani</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="298" model="mooc.city">
+    <field type="CharField" name="name">Betul</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="299" model="mooc.city">
+    <field type="CharField" name="name">Bhind</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="300" model="mooc.city">
+    <field type="CharField" name="name">Bhopal</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="301" model="mooc.city">
+    <field type="CharField" name="name">Burhanpur</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="302" model="mooc.city">
+    <field type="CharField" name="name">Chhatarpur</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="303" model="mooc.city">
+    <field type="CharField" name="name">Chhindwara</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="304" model="mooc.city">
+    <field type="CharField" name="name">Damoh</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="305" model="mooc.city">
+    <field type="CharField" name="name">Datia</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="306" model="mooc.city">
+    <field type="CharField" name="name">Dewas</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="307" model="mooc.city">
+    <field type="CharField" name="name">Dhar</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="308" model="mooc.city">
+    <field type="CharField" name="name">Dindori</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="309" model="mooc.city">
+    <field type="CharField" name="name">Guna</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="310" model="mooc.city">
+    <field type="CharField" name="name">Gwalior</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="311" model="mooc.city">
+    <field type="CharField" name="name">Harda</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="312" model="mooc.city">
+    <field type="CharField" name="name">Hoshangabad</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="313" model="mooc.city">
+    <field type="CharField" name="name">Indore</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="314" model="mooc.city">
+    <field type="CharField" name="name">Jabalpur</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="315" model="mooc.city">
+    <field type="CharField" name="name">Jhabua</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="316" model="mooc.city">
+    <field type="CharField" name="name">Katni</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="317" model="mooc.city">
+    <field type="CharField" name="name">Khandwa (East Nimar)</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="318" model="mooc.city">
+    <field type="CharField" name="name">Khargone (West Nimar)</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="319" model="mooc.city">
+    <field type="CharField" name="name">Mandla</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="320" model="mooc.city">
+    <field type="CharField" name="name">Mandsaur</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="321" model="mooc.city">
+    <field type="CharField" name="name">Morena</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="322" model="mooc.city">
+    <field type="CharField" name="name">Narsinghpur</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="323" model="mooc.city">
+    <field type="CharField" name="name">Neemuch</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="324" model="mooc.city">
+    <field type="CharField" name="name">Panna</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="325" model="mooc.city">
+    <field type="CharField" name="name">Raisen</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="326" model="mooc.city">
+    <field type="CharField" name="name">Rajgarh</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="327" model="mooc.city">
+    <field type="CharField" name="name">Ratlam</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="328" model="mooc.city">
+    <field type="CharField" name="name">Rewa</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="329" model="mooc.city">
+    <field type="CharField" name="name">Sagar</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="330" model="mooc.city">
+    <field type="CharField" name="name">Satna</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="331" model="mooc.city">
+    <field type="CharField" name="name">Sehore</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="332" model="mooc.city">
+    <field type="CharField" name="name">Seoni</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="333" model="mooc.city">
+    <field type="CharField" name="name">Shahdol</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="334" model="mooc.city">
+    <field type="CharField" name="name">Shajapur</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="335" model="mooc.city">
+    <field type="CharField" name="name">Sheopur</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="336" model="mooc.city">
+    <field type="CharField" name="name">Shivpuri</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="337" model="mooc.city">
+    <field type="CharField" name="name">Sidhi</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="338" model="mooc.city">
+    <field type="CharField" name="name">Singrauli</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="339" model="mooc.city">
+    <field type="CharField" name="name">Tikamgarh</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="340" model="mooc.city">
+    <field type="CharField" name="name">Ujjain</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="341" model="mooc.city">
+    <field type="CharField" name="name">Umaria</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="342" model="mooc.city">
+    <field type="CharField" name="name">Vidisha</field>
+    <field type="IntegerField" name="state">20</field>
+</object>
+<object pk="343" model="mooc.city">
+    <field type="CharField" name="name">Ahmednagar</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="344" model="mooc.city">
+    <field type="CharField" name="name">Akola</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="345" model="mooc.city">
+    <field type="CharField" name="name">Amravati</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="347" model="mooc.city">
+    <field type="CharField" name="name">Beed</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="348" model="mooc.city">
+    <field type="CharField" name="name">Bhandara</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="349" model="mooc.city">
+    <field type="CharField" name="name">Buldhana</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="350" model="mooc.city">
+    <field type="CharField" name="name">Chandrapur</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="351" model="mooc.city">
+    <field type="CharField" name="name">Dhule</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="352" model="mooc.city">
+    <field type="CharField" name="name">Gadchiroli</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="353" model="mooc.city">
+    <field type="CharField" name="name">Gondia</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="354" model="mooc.city">
+    <field type="CharField" name="name">Hingoli</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="355" model="mooc.city">
+    <field type="CharField" name="name">Jalgaon</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="356" model="mooc.city">
+    <field type="CharField" name="name">Jalna</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="357" model="mooc.city">
+    <field type="CharField" name="name">Kolhapur</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="358" model="mooc.city">
+    <field type="CharField" name="name">Latur</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="359" model="mooc.city">
+    <field type="CharField" name="name">Mumbai</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="360" model="mooc.city">
+    <field type="CharField" name="name">Mumbai suburban</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="361" model="mooc.city">
+    <field type="CharField" name="name">Nanded</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="362" model="mooc.city">
+    <field type="CharField" name="name">Nandurbar</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="363" model="mooc.city">
+    <field type="CharField" name="name">Nagpur</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="364" model="mooc.city">
+    <field type="CharField" name="name">Nashik</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="365" model="mooc.city">
+    <field type="CharField" name="name">Osmanabad</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="366" model="mooc.city">
+    <field type="CharField" name="name">Parbhani</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="367" model="mooc.city">
+    <field type="CharField" name="name">Pune</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="368" model="mooc.city">
+    <field type="CharField" name="name">Raigad</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="369" model="mooc.city">
+    <field type="CharField" name="name">Ratnagiri</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="370" model="mooc.city">
+    <field type="CharField" name="name">Sangli</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="371" model="mooc.city">
+    <field type="CharField" name="name">Satara</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="372" model="mooc.city">
+    <field type="CharField" name="name">Sindhudurg</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="373" model="mooc.city">
+    <field type="CharField" name="name">Solapur</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="374" model="mooc.city">
+    <field type="CharField" name="name">Thane</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="375" model="mooc.city">
+    <field type="CharField" name="name">Wardha</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="376" model="mooc.city">
+    <field type="CharField" name="name">Washim</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="377" model="mooc.city">
+    <field type="CharField" name="name">Yavatmal</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+<object pk="378" model="mooc.city">
+    <field type="CharField" name="name">Bishnupur</field>
+    <field type="IntegerField" name="state">22</field>
+</object>
+<object pk="379" model="mooc.city">
+    <field type="CharField" name="name">Churachandpur</field>
+    <field type="IntegerField" name="state">22</field>
+</object>
+<object pk="380" model="mooc.city">
+    <field type="CharField" name="name">Chandel</field>
+    <field type="IntegerField" name="state">22</field>
+</object>
+<object pk="381" model="mooc.city">
+    <field type="CharField" name="name">Imphal East</field>
+    <field type="IntegerField" name="state">22</field>
+</object>
+<object pk="382" model="mooc.city">
+    <field type="CharField" name="name">Senapati</field>
+    <field type="IntegerField" name="state">22</field>
+</object>
+<object pk="383" model="mooc.city">
+    <field type="CharField" name="name">Tamenglong</field>
+    <field type="IntegerField" name="state">22</field>
+</object>
+<object pk="384" model="mooc.city">
+    <field type="CharField" name="name">Thoubal</field>
+    <field type="IntegerField" name="state">22</field>
+</object>
+<object pk="385" model="mooc.city">
+    <field type="CharField" name="name">Ukhrul</field>
+    <field type="IntegerField" name="state">22</field>
+</object>
+<object pk="386" model="mooc.city">
+    <field type="CharField" name="name">Imphal West</field>
+    <field type="IntegerField" name="state">22</field>
+</object>
+<object pk="387" model="mooc.city">
+    <field type="CharField" name="name">East Garo Hills</field>
+    <field type="IntegerField" name="state">23</field>
+</object>
+<object pk="388" model="mooc.city">
+    <field type="CharField" name="name">East Khasi Hills</field>
+    <field type="IntegerField" name="state">23</field>
+</object>
+<object pk="389" model="mooc.city">
+    <field type="CharField" name="name">Jaintia Hills</field>
+    <field type="IntegerField" name="state">23</field>
+</object>
+<object pk="390" model="mooc.city">
+    <field type="CharField" name="name">Ri Bhoi</field>
+    <field type="IntegerField" name="state">23</field>
+</object>
+<object pk="391" model="mooc.city">
+    <field type="CharField" name="name">South Garo Hills</field>
+    <field type="IntegerField" name="state">23</field>
+</object>
+<object pk="392" model="mooc.city">
+    <field type="CharField" name="name">West Garo Hills</field>
+    <field type="IntegerField" name="state">23</field>
+</object>
+<object pk="393" model="mooc.city">
+    <field type="CharField" name="name">West Khasi Hills</field>
+    <field type="IntegerField" name="state">23</field>
+</object>
+<object pk="394" model="mooc.city">
+    <field type="CharField" name="name">Aizawl</field>
+    <field type="IntegerField" name="state">24</field>
+</object>
+<object pk="395" model="mooc.city">
+    <field type="CharField" name="name">Champhai</field>
+    <field type="IntegerField" name="state">24</field>
+</object>
+<object pk="396" model="mooc.city">
+    <field type="CharField" name="name">Kolasib</field>
+    <field type="IntegerField" name="state">24</field>
+</object>
+<object pk="397" model="mooc.city">
+    <field type="CharField" name="name">Lawngtlai</field>
+    <field type="IntegerField" name="state">24</field>
+</object>
+<object pk="398" model="mooc.city">
+    <field type="CharField" name="name">Lunglei</field>
+    <field type="IntegerField" name="state">24</field>
+</object>
+<object pk="399" model="mooc.city">
+    <field type="CharField" name="name">Mammit</field>
+    <field type="IntegerField" name="state">24</field>
+</object>
+<object pk="400" model="mooc.city">
+    <field type="CharField" name="name">Saiha</field>
+    <field type="IntegerField" name="state">24</field>
+</object>
+<object pk="401" model="mooc.city">
+    <field type="CharField" name="name">Serchhip</field>
+    <field type="IntegerField" name="state">24</field>
+</object>
+<object pk="402" model="mooc.city">
+    <field type="CharField" name="name">Dimapur</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="403" model="mooc.city">
+    <field type="CharField" name="name">Kiphire</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="404" model="mooc.city">
+    <field type="CharField" name="name">Kohima</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="405" model="mooc.city">
+    <field type="CharField" name="name">Longleng</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="406" model="mooc.city">
+    <field type="CharField" name="name">Mokokchung</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="407" model="mooc.city">
+    <field type="CharField" name="name">Mon</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="408" model="mooc.city">
+    <field type="CharField" name="name">Peren</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="409" model="mooc.city">
+    <field type="CharField" name="name">Phek</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="410" model="mooc.city">
+    <field type="CharField" name="name">Tuensang</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="411" model="mooc.city">
+    <field type="CharField" name="name">Wokha</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="412" model="mooc.city">
+    <field type="CharField" name="name">Zunhebotto</field>
+    <field type="IntegerField" name="state">25</field>
+</object>
+<object pk="413" model="mooc.city">
+    <field type="CharField" name="name">Angul</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="414" model="mooc.city">
+    <field type="CharField" name="name">Boudh</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="415" model="mooc.city">
+    <field type="CharField" name="name">Bhadrak</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="416" model="mooc.city">
+    <field type="CharField" name="name">Balangir</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="417" model="mooc.city">
+    <field type="CharField" name="name">Bargarh</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="418" model="mooc.city">
+    <field type="CharField" name="name">Baleswar</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="419" model="mooc.city">
+    <field type="CharField" name="name">Cuttack</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="420" model="mooc.city">
+    <field type="CharField" name="name">Debagarh (Deogarh)</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="421" model="mooc.city">
+    <field type="CharField" name="name">Dhenkanal</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="422" model="mooc.city">
+    <field type="CharField" name="name">Ganjam</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="423" model="mooc.city">
+    <field type="CharField" name="name">Gajapati</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="424" model="mooc.city">
+    <field type="CharField" name="name">Jharsuguda</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="425" model="mooc.city">
+    <field type="CharField" name="name">Jajapur</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="426" model="mooc.city">
+    <field type="CharField" name="name">Jagatsinghapur</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="427" model="mooc.city">
+    <field type="CharField" name="name">Khurda (khordha)</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="428" model="mooc.city">
+    <field type="CharField" name="name">Kendujhar</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="429" model="mooc.city">
+    <field type="CharField" name="name">Kalahandi</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="430" model="mooc.city">
+    <field type="CharField" name="name">Kandhamal</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="431" model="mooc.city">
+    <field type="CharField" name="name">Koraput</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="432" model="mooc.city">
+    <field type="CharField" name="name">Kendrapara</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="433" model="mooc.city">
+    <field type="CharField" name="name">Malkangiri</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="434" model="mooc.city">
+    <field type="CharField" name="name">Mayurbhanj</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="435" model="mooc.city">
+    <field type="CharField" name="name">Nabarangapur</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="436" model="mooc.city">
+    <field type="CharField" name="name">Nuapada</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="437" model="mooc.city">
+    <field type="CharField" name="name">Nayagarh</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="438" model="mooc.city">
+    <field type="CharField" name="name">Puri</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="439" model="mooc.city">
+    <field type="CharField" name="name">Rayagada</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="440" model="mooc.city">
+    <field type="CharField" name="name">Sambalpur</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="441" model="mooc.city">
+    <field type="CharField" name="name">Sonapur (subarnapur)</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="442" model="mooc.city">
+    <field type="CharField" name="name">Sundergarh</field>
+    <field type="IntegerField" name="state">26</field>
+</object>
+<object pk="443" model="mooc.city">
+    <field type="CharField" name="name">Karaikal</field>
+    <field type="IntegerField" name="state">27</field>
+</object>
+<object pk="444" model="mooc.city">
+    <field type="CharField" name="name">Mahe</field>
+    <field type="IntegerField" name="state">27</field>
+</object>
+<object pk="445" model="mooc.city">
+    <field type="CharField" name="name">Pondicherry</field>
+    <field type="IntegerField" name="state">27</field>
+</object>
+<object pk="446" model="mooc.city">
+    <field type="CharField" name="name">Yanam</field>
+    <field type="IntegerField" name="state">27</field>
+</object>
+<object pk="447" model="mooc.city">
+    <field type="CharField" name="name">Amritsar</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="448" model="mooc.city">
+    <field type="CharField" name="name">Barnala</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="449" model="mooc.city">
+    <field type="CharField" name="name">Bathinda</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="450" model="mooc.city">
+    <field type="CharField" name="name">Firozpur</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="451" model="mooc.city">
+    <field type="CharField" name="name">Faridkot</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="452" model="mooc.city">
+    <field type="CharField" name="name">Fatehgarh Sahib</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="453" model="mooc.city">
+    <field type="CharField" name="name">Fazilka</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="454" model="mooc.city">
+    <field type="CharField" name="name">Gurdaspur</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="455" model="mooc.city">
+    <field type="CharField" name="name">Hoshiarpur</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="456" model="mooc.city">
+    <field type="CharField" name="name">Jalandhar</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="457" model="mooc.city">
+    <field type="CharField" name="name">Kapurthala</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="458" model="mooc.city">
+    <field type="CharField" name="name">Ludhiana</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="459" model="mooc.city">
+    <field type="CharField" name="name">Mansa</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="460" model="mooc.city">
+    <field type="CharField" name="name">Moga</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="461" model="mooc.city">
+    <field type="CharField" name="name">Muktsar</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="462" model="mooc.city">
+    <field type="CharField" name="name">Pathankot</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="463" model="mooc.city">
+    <field type="CharField" name="name">Patiala</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="464" model="mooc.city">
+    <field type="CharField" name="name">Ropar (rupnagar)</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="465" model="mooc.city">
+    <field type="CharField" name="name">Mohali</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="466" model="mooc.city">
+    <field type="CharField" name="name">Sangrur</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="467" model="mooc.city">
+    <field type="CharField" name="name">Nawanshahr</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="468" model="mooc.city">
+    <field type="CharField" name="name">Tarn Taran</field>
+    <field type="IntegerField" name="state">28</field>
+</object>
+<object pk="469" model="mooc.city">
+    <field type="CharField" name="name">Ajmer</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="470" model="mooc.city">
+    <field type="CharField" name="name">Alwar</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="471" model="mooc.city">
+    <field type="CharField" name="name">Bikaner</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="472" model="mooc.city">
+    <field type="CharField" name="name">Barmer</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="473" model="mooc.city">
+    <field type="CharField" name="name">Banswara</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="474" model="mooc.city">
+    <field type="CharField" name="name">Bharatpur</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="475" model="mooc.city">
+    <field type="CharField" name="name">Baran</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="476" model="mooc.city">
+    <field type="CharField" name="name">Bundi</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="477" model="mooc.city">
+    <field type="CharField" name="name">Bhilwara</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="478" model="mooc.city">
+    <field type="CharField" name="name">Churu</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="479" model="mooc.city">
+    <field type="CharField" name="name">Chittorgarh</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="480" model="mooc.city">
+    <field type="CharField" name="name">Dausa</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="481" model="mooc.city">
+    <field type="CharField" name="name">Dholpur</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="482" model="mooc.city">
+    <field type="CharField" name="name">Dungarpur</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="483" model="mooc.city">
+    <field type="CharField" name="name">Sri Ganganagar</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="484" model="mooc.city">
+    <field type="CharField" name="name">Hanumangarh</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="485" model="mooc.city">
+    <field type="CharField" name="name">Jhunjhunu</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="486" model="mooc.city">
+    <field type="CharField" name="name">Jalor</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="487" model="mooc.city">
+    <field type="CharField" name="name">Jodhpur</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="488" model="mooc.city">
+    <field type="CharField" name="name">Jaipur</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="489" model="mooc.city">
+    <field type="CharField" name="name">Jaisalmer</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="490" model="mooc.city">
+    <field type="CharField" name="name">Jhalawar</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="491" model="mooc.city">
+    <field type="CharField" name="name">Karauli</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="492" model="mooc.city">
+    <field type="CharField" name="name">Kota</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="493" model="mooc.city">
+    <field type="CharField" name="name">Nagaur</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="494" model="mooc.city">
+    <field type="CharField" name="name">Pali</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="495" model="mooc.city">
+    <field type="CharField" name="name">Pratapgarh</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="496" model="mooc.city">
+    <field type="CharField" name="name">Rajsamand</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="497" model="mooc.city">
+    <field type="CharField" name="name">Sikar</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="498" model="mooc.city">
+    <field type="CharField" name="name">Sawai Madhopur</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="499" model="mooc.city">
+    <field type="CharField" name="name">Sirohi</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="500" model="mooc.city">
+    <field type="CharField" name="name">Tonk</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="501" model="mooc.city">
+    <field type="CharField" name="name">Udaipur</field>
+    <field type="IntegerField" name="state">29</field>
+</object>
+<object pk="502" model="mooc.city">
+    <field type="CharField" name="name">East Sikkim</field>
+    <field type="IntegerField" name="state">30</field>
+</object>
+<object pk="503" model="mooc.city">
+    <field type="CharField" name="name">North Sikkim</field>
+    <field type="IntegerField" name="state">30</field>
+</object>
+<object pk="504" model="mooc.city">
+    <field type="CharField" name="name">South Sikkim</field>
+    <field type="IntegerField" name="state">30</field>
+</object>
+<object pk="505" model="mooc.city">
+    <field type="CharField" name="name">West Sikkim</field>
+    <field type="IntegerField" name="state">30</field>
+</object>
+<object pk="506" model="mooc.city">
+    <field type="CharField" name="name">Ariyalur</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="507" model="mooc.city">
+    <field type="CharField" name="name">Chennai</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="508" model="mooc.city">
+    <field type="CharField" name="name">Coimbatore</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="509" model="mooc.city">
+    <field type="CharField" name="name">Cuddalore</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="510" model="mooc.city">
+    <field type="CharField" name="name">Dharmapuri</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="511" model="mooc.city">
+    <field type="CharField" name="name">Dindigul</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="512" model="mooc.city">
+    <field type="CharField" name="name">Erode</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="513" model="mooc.city">
+    <field type="CharField" name="name">Kanchipuram</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="514" model="mooc.city">
+    <field type="CharField" name="name">Kanyakumari</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="515" model="mooc.city">
+    <field type="CharField" name="name">Karur</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="516" model="mooc.city">
+    <field type="CharField" name="name">Krishnagiri</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="517" model="mooc.city">
+    <field type="CharField" name="name">Madurai</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="518" model="mooc.city">
+    <field type="CharField" name="name">Nagapattinam</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="519" model="mooc.city">
+    <field type="CharField" name="name">Nilgiris</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="520" model="mooc.city">
+    <field type="CharField" name="name">Namakkal</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="521" model="mooc.city">
+    <field type="CharField" name="name">Perambalur</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="522" model="mooc.city">
+    <field type="CharField" name="name">Pudukkottai</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="523" model="mooc.city">
+    <field type="CharField" name="name">Ramanathapuram</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="524" model="mooc.city">
+    <field type="CharField" name="name">Salem</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="525" model="mooc.city">
+    <field type="CharField" name="name">Sivaganga</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="526" model="mooc.city">
+    <field type="CharField" name="name">Tirupur</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="527" model="mooc.city">
+    <field type="CharField" name="name">Tiruchirappalli</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="528" model="mooc.city">
+    <field type="CharField" name="name">Theni</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="529" model="mooc.city">
+    <field type="CharField" name="name">Tirunelveli</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="530" model="mooc.city">
+    <field type="CharField" name="name">Thanjavur</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="531" model="mooc.city">
+    <field type="CharField" name="name">Tuticorin ( Thoothukudi )</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="532" model="mooc.city">
+    <field type="CharField" name="name">Tiruvallur</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="533" model="mooc.city">
+    <field type="CharField" name="name">Tiruvarur</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="534" model="mooc.city">
+    <field type="CharField" name="name">Tiruvannamalai</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="535" model="mooc.city">
+    <field type="CharField" name="name">Vellore</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="536" model="mooc.city">
+    <field type="CharField" name="name">Villupuram</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="537" model="mooc.city">
+    <field type="CharField" name="name">Virudhunagar</field>
+    <field type="IntegerField" name="state">31</field>
+</object>
+<object pk="538" model="mooc.city">
+    <field type="CharField" name="name">Dhalai</field>
+    <field type="IntegerField" name="state">32</field>
+</object>
+<object pk="539" model="mooc.city">
+    <field type="CharField" name="name">North Tripura</field>
+    <field type="IntegerField" name="state">32</field>
+</object>
+<object pk="540" model="mooc.city">
+    <field type="CharField" name="name">South Tripura</field>
+    <field type="IntegerField" name="state">32</field>
+</object>
+<object pk="541" model="mooc.city">
+    <field type="CharField" name="name">Khowai</field>
+    <field type="IntegerField" name="state">32</field>
+</object>
+<object pk="542" model="mooc.city">
+    <field type="CharField" name="name">West Tripura</field>
+    <field type="IntegerField" name="state">32</field>
+</object>
+<object pk="543" model="mooc.city">
+    <field type="CharField" name="name">Agra</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="544" model="mooc.city">
+    <field type="CharField" name="name">Aligarh</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="545" model="mooc.city">
+    <field type="CharField" name="name">Allahabad</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="546" model="mooc.city">
+    <field type="CharField" name="name">Ambedkar Nagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="547" model="mooc.city">
+    <field type="CharField" name="name">Auraiya</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="548" model="mooc.city">
+    <field type="CharField" name="name">Azamgarh</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="549" model="mooc.city">
+    <field type="CharField" name="name">Bagpat</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="550" model="mooc.city">
+    <field type="CharField" name="name">Bahraich</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="551" model="mooc.city">
+    <field type="CharField" name="name">Ballia</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="552" model="mooc.city">
+    <field type="CharField" name="name">Balrampur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="553" model="mooc.city">
+    <field type="CharField" name="name">Banda</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="554" model="mooc.city">
+    <field type="CharField" name="name">Barabanki</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="555" model="mooc.city">
+    <field type="CharField" name="name">Bareilly</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="556" model="mooc.city">
+    <field type="CharField" name="name">Basti</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="557" model="mooc.city">
+    <field type="CharField" name="name">Bijnor</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="558" model="mooc.city">
+    <field type="CharField" name="name">Budaun</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="559" model="mooc.city">
+    <field type="CharField" name="name">Bulandshahr</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="560" model="mooc.city">
+    <field type="CharField" name="name">Chandauli</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="561" model="mooc.city">
+    <field type="CharField" name="name">Chhatrapati Shahuji Maharaj Nagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="562" model="mooc.city">
+    <field type="CharField" name="name">Chitrakoot</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="563" model="mooc.city">
+    <field type="CharField" name="name">Deoria</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="564" model="mooc.city">
+    <field type="CharField" name="name">Etah</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="565" model="mooc.city">
+    <field type="CharField" name="name">Etawah</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="566" model="mooc.city">
+    <field type="CharField" name="name">Faizabad</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="567" model="mooc.city">
+    <field type="CharField" name="name">Farrukhabad</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="568" model="mooc.city">
+    <field type="CharField" name="name">Fatehpur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="569" model="mooc.city">
+    <field type="CharField" name="name">Firozabad</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="570" model="mooc.city">
+    <field type="CharField" name="name">Gautam Buddha nagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="571" model="mooc.city">
+    <field type="CharField" name="name">Ghaziabad</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="572" model="mooc.city">
+    <field type="CharField" name="name">Ghazipur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="573" model="mooc.city">
+    <field type="CharField" name="name">Gonda</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="574" model="mooc.city">
+    <field type="CharField" name="name">Gorakhpur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="575" model="mooc.city">
+    <field type="CharField" name="name">Hamirpur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="576" model="mooc.city">
+    <field type="CharField" name="name">Hardoi</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="577" model="mooc.city">
+    <field type="CharField" name="name">Hathras</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="578" model="mooc.city">
+    <field type="CharField" name="name">Jalaun</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="579" model="mooc.city">
+    <field type="CharField" name="name">Jaunpur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="580" model="mooc.city">
+    <field type="CharField" name="name">Jhansi</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="581" model="mooc.city">
+    <field type="CharField" name="name">Jyotiba Phule Nagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="582" model="mooc.city">
+    <field type="CharField" name="name">Kannauj</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="583" model="mooc.city">
+    <field type="CharField" name="name">Kanpur Nagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="584" model="mooc.city">
+    <field type="CharField" name="name">Kanshi Ram Nagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="585" model="mooc.city">
+    <field type="CharField" name="name">Kaushambi</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="586" model="mooc.city">
+    <field type="CharField" name="name">Kushinagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="587" model="mooc.city">
+    <field type="CharField" name="name">Kheri</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="588" model="mooc.city">
+    <field type="CharField" name="name">Lalitpur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="589" model="mooc.city">
+    <field type="CharField" name="name">Lucknow</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="590" model="mooc.city">
+    <field type="CharField" name="name">Maharajganj</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="591" model="mooc.city">
+    <field type="CharField" name="name">Mahoba</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="592" model="mooc.city">
+    <field type="CharField" name="name">Mainpuri</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="593" model="mooc.city">
+    <field type="CharField" name="name">Mathura</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="594" model="mooc.city">
+    <field type="CharField" name="name">Mau</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="595" model="mooc.city">
+    <field type="CharField" name="name">Meerut</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="596" model="mooc.city">
+    <field type="CharField" name="name">Mirzapur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="597" model="mooc.city">
+    <field type="CharField" name="name">Moradabad</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="598" model="mooc.city">
+    <field type="CharField" name="name">Muzaffarnagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="599" model="mooc.city">
+    <field type="CharField" name="name">Panchsheel Nagar district(Hapur)</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="600" model="mooc.city">
+    <field type="CharField" name="name">Pilibhit</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="601" model="mooc.city">
+    <field type="CharField" name="name">Pratapgarh</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="602" model="mooc.city">
+    <field type="CharField" name="name">Raebareli</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="603" model="mooc.city">
+    <field type="CharField" name="name">Kanpur Dehat</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="604" model="mooc.city">
+    <field type="CharField" name="name">Rampur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="605" model="mooc.city">
+    <field type="CharField" name="name">Saharanpur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="606" model="mooc.city">
+    <field type="CharField" name="name">Sant Kabir Nagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="607" model="mooc.city">
+    <field type="CharField" name="name">Sant Ravidas Nagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="608" model="mooc.city">
+    <field type="CharField" name="name">Shahjahanpur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="609" model="mooc.city">
+    <field type="CharField" name="name">Shamli</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="610" model="mooc.city">
+    <field type="CharField" name="name">Shrawasti</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="611" model="mooc.city">
+    <field type="CharField" name="name">Siddharthnagar</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="612" model="mooc.city">
+    <field type="CharField" name="name">Sitapur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="613" model="mooc.city">
+    <field type="CharField" name="name">Sonbhadra</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="614" model="mooc.city">
+    <field type="CharField" name="name">Sultanpur</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="615" model="mooc.city">
+    <field type="CharField" name="name">Unnao</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="616" model="mooc.city">
+    <field type="CharField" name="name">Varanasi</field>
+    <field type="IntegerField" name="state">33</field>
+</object>
+<object pk="617" model="mooc.city">
+    <field type="CharField" name="name">Almora</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="618" model="mooc.city">
+    <field type="CharField" name="name">Bageshwar</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="619" model="mooc.city">
+    <field type="CharField" name="name">Chamoli</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="620" model="mooc.city">
+    <field type="CharField" name="name">Champawat</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="621" model="mooc.city">
+    <field type="CharField" name="name">Dehradun</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="622" model="mooc.city">
+    <field type="CharField" name="name">Haridwar</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="623" model="mooc.city">
+    <field type="CharField" name="name">Nainital</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="624" model="mooc.city">
+    <field type="CharField" name="name">Pauri Garhwal</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="625" model="mooc.city">
+    <field type="CharField" name="name">Pithoragarh</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="626" model="mooc.city">
+    <field type="CharField" name="name">Rudraprayag</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="627" model="mooc.city">
+    <field type="CharField" name="name">Tehri Garhwal</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="628" model="mooc.city">
+    <field type="CharField" name="name">Udham Singh Nagar</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="629" model="mooc.city">
+    <field type="CharField" name="name">Uttarkashi</field>
+    <field type="IntegerField" name="state">34</field>
+</object>
+<object pk="630" model="mooc.city">
+    <field type="CharField" name="name">Bankura</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="631" model="mooc.city">
+    <field type="CharField" name="name">Bardhaman</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="632" model="mooc.city">
+    <field type="CharField" name="name">Birbhum</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="633" model="mooc.city">
+    <field type="CharField" name="name">Cooch Behar</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="634" model="mooc.city">
+    <field type="CharField" name="name">South Dinajpur (dakshin)</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="635" model="mooc.city">
+    <field type="CharField" name="name">Darjeeling</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="636" model="mooc.city">
+    <field type="CharField" name="name">Hooghly</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="637" model="mooc.city">
+    <field type="CharField" name="name">Howrah</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="638" model="mooc.city">
+    <field type="CharField" name="name">Jalpaiguri</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="639" model="mooc.city">
+    <field type="CharField" name="name">Kolkata</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="640" model="mooc.city">
+    <field type="CharField" name="name">Malda</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="641" model="mooc.city">
+    <field type="CharField" name="name">Murshidabad</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="642" model="mooc.city">
+    <field type="CharField" name="name">Nadia</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="643" model="mooc.city">
+    <field type="CharField" name="name">North 24 Parganas</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="644" model="mooc.city">
+    <field type="CharField" name="name">West Medinipur</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="645" model="mooc.city">
+    <field type="CharField" name="name">East Medinipur</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="646" model="mooc.city">
+    <field type="CharField" name="name">Purulia</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="647" model="mooc.city">
+    <field type="CharField" name="name">South 24 Parganas</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="648" model="mooc.city">
+    <field type="CharField" name="name">North Dinajpur (uttar)</field>
+    <field type="IntegerField" name="state">35</field>
+</object>
+<object pk="649" model="mooc.city">
+    <field type="CharField" name="name">Bilaspur</field>
+    <field type="IntegerField" name="state">14</field>
+</object>
+<object pk="650" model="mooc.city">
+    <field type="CharField" name="name">Bijapur</field>
+    <field type="IntegerField" name="state">17</field>
+</object>
+<object pk="651" model="mooc.city">
+    <field type="CharField" name="name">Aurangabad</field>
+    <field type="IntegerField" name="state">21</field>
+</object>
+
+
+<object pk="1" model="mooc.role">
+    <field type="CharField" name="name">Institute Head</field>
+</object>
+<object pk="2" model="mooc.role">
+    <field type="CharField" name="name">Institute Coordinator</field>
+</object>
+
+
+<object pk="1" model="mooc.institute_status">
+    <field type="CharField" name="name">Approved</field>
+</object>
+<object pk="2" model="mooc.institute_status">
+    <field type="CharField" name="name">Pending</field>
+</object>
+<object pk="3" model="mooc.institute_status">
+    <field type="CharField" name="name">Rejected</field>
+</object>
+
+
+</django-objects>

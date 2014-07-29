@@ -1,0 +1,16 @@
+[
+  {
+    "model": "mooc.accreditation",
+    "pk": 1,
+    "fields": {
+      "name": "John"
+    }
+  },
+  {
+    "model": "mooc.accreditation",
+    "pk": 2,
+    "fields": {
+      "name": "Paul"
+    }
+  }
+]
